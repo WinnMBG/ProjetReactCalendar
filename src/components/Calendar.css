@@ -1,0 +1,36 @@
+
+.line-0, .line-1, .line-2, .line-3, .line-4, .line-5{
+    margin-top: 2em;
+    justify-content: center;
+}
+
+.number{
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.number:hover{
+    background-color: rgb(15, 217, 222);
+    color: white;
+    transition: all 0.2s ease-in;
+}
+
+.number-today, .number-today:hover{
+    text-decoration: none;
+    color:black;
+    font-size: larger;
+    font-weight: bold;
+    background-color: rgb(15, 217, 222)
+}
+
+.number-filled, .number-filled:hover{
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    font-size: larger;
+    font-weight: bold;
+    background-color: gray;
+}
