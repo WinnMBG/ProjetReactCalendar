@@ -1,4 +1,5 @@
 import Calendar from './components/Calendar'
+import PwaInstaller from 'react-pwa-installer';
 
 function App() {
   document.body.style = "background: gray"

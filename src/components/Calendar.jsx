@@ -129,7 +129,7 @@ const Calendar = () => {
                 </CardHeader>
                 <CardBody>
                     <div className='row justify-content-center'>
-                        { days.map((el, index) =>  
+                        { days.map((el, index) =>  // Affichage de la ligne des noms des jours
                             <div 
                                 key={index}
                                 className='col-sm-1'
@@ -140,7 +140,7 @@ const Calendar = () => {
                         }
                     </div>
                     <div>
-                        { currentMonth.map((el, index) => {
+                        { currentMonth.map((el, index) => { 
                             return <div className={`row line-${index}`} key={index}>
                                 {el.map((day, index) => {
                                     let dayTmp = new Date(`${year}-${month}-${day}`)
